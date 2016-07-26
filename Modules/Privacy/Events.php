@@ -1,4 +1,5 @@
 <?php
 
-use Support\Facades\Event;
+use Event;
 
+Event::listen('privacy', 'App\Modules\Privacy\Controllers\Privacy@getPanel');
