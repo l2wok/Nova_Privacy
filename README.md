@@ -10,14 +10,7 @@
 **отредактировать ваш темплейт, а именно:**
 - css файл, добавить класс ```police```
 - в используемых вами Layout добавить строки  до закрытия тега </body>
-    - ``` 
-<?php
-if(Event::hasListeners('privacy'))
-{
-    echo Event::until('privacy');
-}
-?>
-```
+    - ```<?php if(Event::hasListeners('privacy')) { echo Event::until('privacy'); } ?>```
 - (примеры в папке Templates)
 
 *Так же рекомендуется отредактировать content самой политики конфиденциальности под свои нужды для используемых языков.*
