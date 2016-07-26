@@ -13,6 +13,4 @@
     - ```<?php if(Event::hasListeners('privacy')) { echo Event::until('privacy'); } ?>```
 - (примеры в папке Templates)
 
-*Так же рекомендуется отредактировать content самой политики конфиденциальности под свои нужды для используемых языков.*
-
-``` Modules\Privacy\Language\etc ```
+*Так же рекомендуется отредактировать content самой политики конфиденциальности под свои нужды для используемых языков.* (``` Modules\Privacy\Language\etc ```)
