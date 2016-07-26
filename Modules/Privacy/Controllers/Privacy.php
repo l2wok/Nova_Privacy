@@ -12,7 +12,7 @@ use Redirect;
 class Privacy extends BaseCont
 {
 
-    static public function getFooter()
+    static public function getPanel()
     {
         if(!Session::get('cookiesAccept'))
         {
