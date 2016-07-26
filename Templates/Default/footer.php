@@ -34,6 +34,10 @@ Assets::js([
 
 echo $js; // Place to pass data / plugable hook zone
 echo $footer; // Place to pass data / plugable hook zone
+if(Event::hasListeners('privacy'))
+{
+    echo Event::until('privacy');
+}
 ?>
 
 <!-- DO NOT DELETE! - Forensics Profiler -->
